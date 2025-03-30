@@ -17,7 +17,7 @@ app.listen(3000, () => {
 });
 
 app.get("/", function (req, res) {
-  //res.send("This is the node response sent");
+  res.send("This is the node response sent");
 });
 
 mongoose
